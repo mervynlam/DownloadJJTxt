@@ -10,13 +10,10 @@ import java.util.List;
 import java.util.Map;
 
 import com.alibaba.fastjson.JSONPath;
-import org.apache.commons.lang3.text.translate.JavaUnicodeEscaper;
 import org.apache.commons.text.StringEscapeUtils;
 import org.jsoup.Connection.Response;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.safety.Whitelist;
 
 import com.mervynlam.downloadnovel.entity.Chapter;
 import com.mervynlam.downloadnovel.entity.Novel;

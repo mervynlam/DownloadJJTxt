@@ -1,13 +1,10 @@
 package com.mervynlam.downloadnovel.utils;
 
-import org.apache.commons.text.StringEscapeUtils;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.util.Map;
 import java.util.Scanner;
 
 public class LoginUtils {

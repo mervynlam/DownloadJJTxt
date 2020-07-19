@@ -5,10 +5,7 @@ import java.util.Scanner;
 
 import com.mervynlam.downloadnovel.entity.Novel;
 import com.mervynlam.downloadnovel.utils.CookiesUtils;
-import com.mervynlam.downloadnovel.utils.LoginUtils;
 import com.mervynlam.downloadnovel.utils.NovelUtils;
-
-import static com.mervynlam.downloadnovel.utils.CookiesUtils.checkCookies;
 
 public class App {
 	
