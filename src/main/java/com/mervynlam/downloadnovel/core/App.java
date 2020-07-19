@@ -24,15 +24,17 @@ public class App {
 				return;
         }
 
-        //输入小说id
-		System.out.println("请输入小说id");
-		String novelId = sc.next();
+		while (true) {
+			//输入小说id
+			System.out.println("请输入小说id");
+			String novelId = sc.next();
 
-		//小说实体
-		Novel novel = new Novel(novelId);
-		novel = NovelUtils.getNovelInfo(novel);
-		NovelUtils.outputFile(novel);
-		NovelUtils.downloadCover(novel);
+			//小说实体
+			Novel novel = new Novel(novelId);
+			novel = NovelUtils.getNovelInfo(novel);
+			NovelUtils.outputFile(novel);
+			NovelUtils.downloadCover(novel);
+		}
 	}
 
 }
